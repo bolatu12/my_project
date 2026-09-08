@@ -1,0 +1,3 @@
+config load c:\Users\CBC\Desktop\2027rc_project\dm_demo\R1.ioc
+project generate c:\Users\CBC\Desktop\2027rc_project\dm_demo
+exit

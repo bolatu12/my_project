@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'R1'
+compiling fdcan_it.c...
+..\app\fdcan_it.c(11): warning:  #177-D: function "MIT_Planning"  was declared but never referenced
+  static void MIT_Planning(MechanicalArm_HandleTypeDef *arm);
+..\app\fdcan_it.c(12): warning:  #177-D: function "Steer_Homing_FSM"  was declared but never referenced
+  static void Steer_Homing_FSM(void);
+..\app\fdcan_it.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=39224 RO-data=1848 RW-data=300 ZI-data=102740  
+FromELF: creating hex file...
+"R1\R1.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:04
